@@ -1,7 +1,3 @@
 # Julia-Thompson.github.io
 
-
-Bla Bla
-
-
-So lets see if this works fine.
+Trying to make my web page.
