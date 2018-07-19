@@ -1,1 +1,0 @@
-# Julia-Thompson.github.io
