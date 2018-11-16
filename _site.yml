@@ -1,9 +1,9 @@
-name: "Julia Thompson"
+name: "Julia Mink"
 output_dir: "."
-title: "Welcome to Julia Thompson's homepage"
+title: "Welcome to Julia Mink's homepage"
 
 navbar:
-  title: "Julia Thompson"
+  title: "Julia Mink"
   left:
     - text: "Home"
       href: index.html
