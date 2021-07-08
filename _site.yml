@@ -21,6 +21,3 @@ output:
   html_document:
     theme: flatly
 author: julia
-
-#    - icon: fa-github fa-lg
-#      href: https://github.com/Julia-Thompson
