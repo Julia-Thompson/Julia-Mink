@@ -3,7 +3,7 @@ output_dir: "."
 title: "Welcome to Julia Mink's homepage"
 
 navbar:
-  title: "Julia Mink"
+  title: "Julia Mink - Health and Environmental Economist"
   left:
     - text: "Home"
       href: index.html
@@ -15,11 +15,12 @@ navbar:
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
-    - icon: fa-github fa-lg
-      href: https://github.com/Julia-Thompson
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/julia-mink
 output:
   html_document:
     theme: flatly
 author: julia
+
+#    - icon: fa-github fa-lg
+#      href: https://github.com/Julia-Thompson
