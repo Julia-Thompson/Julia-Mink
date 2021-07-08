@@ -6,7 +6,7 @@ navbar:
   title: "Julia Mink - Health and Environmental Economist"
   right:
     - text: "Home"
-      href: index2.html
+      href: index.html
     - text: "Research"
       href: research.html
     - text: "Teaching"
@@ -21,6 +21,3 @@ output:
   html_document:
     theme: flatly
 author: julia
-
-#    - icon: fa-github fa-lg
-#      href: https://github.com/Julia-Thompson
