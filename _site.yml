@@ -4,15 +4,13 @@ title: "Welcome to Julia Mink's homepage"
 
 navbar:
   title: "Julia Mink - Health and Environmental Economist"
-  left:
+  right:
     - text: "Home"
-      href: index.html
+      href: index2.html
     - text: "Research"
       href: research.html
     - text: "Teaching"
       href: teaching.html
-
-  right:
     - icon: fa-envelope fa-lg
       href: contact.html
 #    - icon: fa-github fa-lg
