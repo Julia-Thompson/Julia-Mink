@@ -6,7 +6,7 @@
 ***
 
 
-<img src="personal_webpage2.jpg" style="width:25%; border:0px solid; margin-top: 1px; margin-bottom: 0px; margin-right: 30px ; margin-left: 30px" align="right">
+<img src="personal_webpage2.jpg" style="width:35%; border:0px solid; margin-top: 1px; margin-bottom: 0px; margin-right: 30px ; margin-left: 30px" align="right">
 
 
 I am a PhD candidate at the [Economics Department at Sciences Po](https://www.sciencespo.fr/department-economics/en.html){target="_blank"} and at the [French National Research Institute for Agrigulture, Food and Environment (INRAE)](https://www.inrae.fr/en/about-us){target="_blank"}.
