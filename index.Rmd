@@ -1,20 +1,17 @@
----
-title: "Julia Mink"
----
-
 <br>
 
-### Welcome to my homepage!
+## Welcome to my homepage!
 ***
 
 
-<img src="personal_webpage_photo.jpg" style="width:30%; border:0px solid; margin-top: 1px; margin-bottom: 0px; margin-right: 30px ; margin-left: 30px" align="right">
+<img src="personal_webpage_photo.jpg" style="width:20%; border:0px solid; margin-top: 1px; margin-bottom: 0px; margin-right: 30px ; margin-left: 30px" align="right">
+
+I am an economist specialised in quasi-experimental methods with a research focus on topics in health and environmental economics.  
 
 
-I am a PhD candidate at the [Economics Department at Sciences Po](https://www.sciencespo.fr/department-economics/en.html){target="_blank"} and at the [French National Research Institute for Agrigulture, Food and Environment (INRAE)](https://www.inrae.fr/en/about-us){target="_blank"}.
+I completed my PhD in economics from [Sciences Po](https://www.sciencespo.fr/department-economics/en.html){target="_blank"} in October 2021 and started a postdoc position at the [French National Research Institute for Agrigulture, Food and Environment (INRAE)](https://www.inrae.fr/en/about-us){target="_blank"}. 
 
-My specialty is employing quasi-experimental methods to answer policy-relevant questions primarily in the areas of health and environmental economics.  
-My work focuses on the effects of major life-cycle events and exposure to adverse environmental conditions on health and health-related outcomes.  Most recently, I explore the impact of exposure to air pollution on health and health care costs in France.
+My thesis focuses on the effects of major life-cycle events and exposure to adverse environmental conditions on health and health-related outcomes. Most recently, I explore the impact of exposure to air pollution on health and health care costs in France.
 
 My full CV is available [here](Academic_CV_Mink.pdf){target="_blank"}.
 
