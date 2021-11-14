@@ -9,7 +9,7 @@
 I am an economist specialised in quasi-experimental methods with a research focus on topics in health and environmental economics.  
 
 
-I completed my PhD in economics from [Sciences Po](https://www.sciencespo.fr/department-economics/en.html){target="_blank"} in October 2021 and started a postdoc position at the [French National Research Institute for Agrigulture, Food and Environment (INRAE)](https://www.inrae.fr/en/about-us){target="_blank"}. 
+I completed my PhD in economics from [Sciences Po](https://www.sciencespo.fr/department-economics/en.html){target="_blank"} in October 2021 and started a postdoc position at the [French National Research Institute for Agriculture, Food and Environment (INRAE)](https://www.inrae.fr/en/about-us){target="_blank"}. 
 
 My thesis focuses on the effects of major life-cycle events and exposure to adverse environmental conditions on health and health-related outcomes. Most recently, I explore the impact of exposure to air pollution on health and health care costs in France.
 
