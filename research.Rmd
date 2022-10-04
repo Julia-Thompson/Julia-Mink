@@ -7,7 +7,6 @@
 ### Working papers
 ***
 
-#### **[JOB MARKET PAPER]**
 #### **Putting a price tag on air pollution: the short-term consequences of air pollution on health care use and costs in France** 
 
 I estimate the causal effects of air pollution on healthcare costs in France by combining administrative data on healthcare reimbursements with reanalysis data on air pollution concentrations and weather conditions.
@@ -16,7 +15,7 @@ I explore effect heterogeneity by patient and location characteristics and by me
 This study presents evidence for substantial healthcare costs caused by exposure to pollution levels that are predominantly situated below current European legal limits. The effects are several orders of magnitude larger than those estimated in the previous literature, suggesting that the healthcare costs of air pollution have been severely underestimated.
 I find significant heterogeneity of effects across location and patient characteristics, indicating that air pollution reduction policies have the potential to reduce health inequalities.
 
-[Full text available here](Air_pollution_article.pdf){target="_blank"} [Job market paper]
+<!-- [Full text available here](Air_pollution_article.pdf){target="_blank"} [Job market paper] -->
 
 
 <br>
@@ -27,7 +26,7 @@ This study investigates the impact of a couple's break-up on the economic resour
 I estimate a household fixed effects model to account for unobserved time-invariant household characteristics while controlling for additional time-varying covariates.
 Household income and food purchases decrease suddenly and significantly at the time of separation and remain lower than pre-separation levels for several years after the break-up. The decrease in food purchases appears to translate into a slight decrease in the female partner's body mass index (BMI). The share of unhealthy food purchases increases shortly before, during and after separation, indicating that the composition of food purchases changes as well. The decline in food purchases and BMI mainly affects households in the lowest pre-separation income tercile, suggesting that these changes are due to insufficiency of financial resources.
 
-[Full text available here](Separation_April_2020.pdf){target="_blank"}
+<!-- [Full text available here](Separation_April_2020.pdf){target="_blank"} -->
 
 <br>
 
@@ -77,23 +76,26 @@ We estimate the impact of retirement on food expenditure and food quantities pur
 #### **Health outcomes of residential agricultural pesticide exposure: Causal modelling from observational data** 
 with Olivier Allais, Philippe Caillou & Michèle Sébag
 
-The goal of this study is to rigorously assess the adverse impact of residential pesticide diffusion on residents living close to agricultural lands, exposed to pesticides via spray drift and volatilising beyond the treated areas. This population is largely absent in studies to date. We exploit sensitive health data in combination with newly available data on pesticide pollution. For the sake of a clear focus, we will rely on the body of knowledge relating the exposure to some molecules at precise stages of the pregnancy, to the impaired development of specific cognitive and biological systems. Accordingly, the study will focus on the short and medium-term pesticide impact on newborns and children.  We use quasi-experimental methods and new machine learning approaches for causal inference to face the main challenges of non-linearity of the effects, high dimensionality of the potential causes (cocktail effect), data incompleteness, and hidden confounding factors.
-The innovative value of the study is twofold. In terms of application, we aims to assess the pesticide risk on health at birth and in childhood, a current major health and societal issue. In terms of methodology, we aims to build a general methodology applicable to the analysis of industrial risks, handling spatio-temporal data with their limitations, and rigorously establishing the nature and amounts of risks incurred $-$ offering an alternative to waiting until lethal risk become undeniable. 
+We assess the adverse impact of residential pesticide diffusion on residents living close to agricultural lands, exposed to pesticides via spray drift and volatilisation beyond the treated areas. This population is largely absent in studies to date. We exploit sensitive health data in combination with newly available data on pesticide pollution. For the sake of a clear focus, we will rely on the body of knowledge relating the exposure to some molecules at precise stages of the pregnancy, to the impaired development of specific cognitive and biological systems. Accordingly, the study will focus on the short and medium-term pesticide impact on newborns and children.  We use quasi-experimental methods and new machine learning approaches for causal inference to face the main challenges of non-linearity of the effects, high dimensionality of the potential causes (cocktail effect), data incompleteness, and hidden confounding factors.
 
 <br>
 
-#### **Reactive or proactive? Capturing adaptation to climate change using machine learning and behavioral theories** 
-with Fabien Forge
-
-We study the determinants of climate change adaptation using both machine learning and economic theory. For farmers, crop choice is one of the most effective and cheapest way of mitigating the effects of climate change. Yet it is unclear whether farmers’ adapt in reaction to past weather realisations or in anticipation of climate change. We attempt to answer this question by testing two theories: one in which farmers are only backward looking and a second in which they are also forward looking. Since these two behavioural models do not leave in the same parameter space, we follow Fudenberg et al. (2020) and measure how `complete’ each theory is by comparing their predictive performance to a predictive upper bound defined using machine learning.
-
-<br>
 
 
 #### **Air pollution and choice of place of residence** 
 with Olivier Allais and Antoine Nebout
 
 We investigate whether individual preferences such as attitudes towards risk, time and ambiguity are correlated with an individual’s exposure to air pollution through her choice of residence and how this impacts health outcomes. For this, we add a module with questions concerning individual preferences for the new wave of data collection of the French cohort study CONSTANCES. This project is currently at the data collection stage.
+
+<br>
+
+
+#### **Reactive or proactive? Capturing adaptation to climate change using machine learning and behavioral theories** 
+with Fabien Forge
+
+We study the determinants of climate change adaptation using both machine learning and economic theory. For farmers, crop choice is one of the most effective and cheapest way of mitigating the effects of climate change. Yet it is unclear whether farmers’ adapt in reaction to past weather realisations or in anticipation of climate change. We attempt to answer this question by testing two theories: one in which farmers are only backward looking and a second in which they are also forward looking. Since these two behavioural models do not leave in the same parameter space, we follow Fudenberg et al. (2020) and measure how `complete’ each theory is by comparing their predictive performance to a predictive upper bound defined using machine learning.
+
+
 
 
 

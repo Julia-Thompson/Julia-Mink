@@ -11,10 +11,10 @@
 
 
 
-<title>index.utf8</title>
+<title>index.knit</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -234,7 +242,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -282,10 +290,30 @@ $(document).ready(function () {
 <h2>Welcome to my homepage!</h2>
 <hr />
 <p><img src="personal_webpage_photo.jpg" style="width:30%; border:0px solid; margin-top: 1px; margin-bottom: 0px; margin-right: 30px ; margin-left: 30px" align="right"></p>
-<p>I am a Postdoctoral Research Fellow at the <a href="https://www.inrae.fr/en/about-us" target="_blank">French National Research Institute for Agriculture, Food and Environment (INRAE)</a>. This fall, I will join the Faculty of Law and Economics of the University of Bonn as Argelander Professor for Environmental Economics, Sustainability and Inequality (W1, tenure track).</p>
-<p>I am an applied economist specialised in the implementation of quasi-experimental methods and the exploitation of large spatio-temporal data sets. My research interests lie in the fields of health and environmental economics, and particularly at the intersection of the two. I am interested in how the experience of major life events and the exposure to adverse environmental conditions affect health and health-related outcomes.</p>
-<p>I have studied the effects of divorce and retirement on household economic resources and diet, I have looked at the consequences of early-life exposure to war on adult health, and, more recently, I am investigating the effects of exposure to air pollution on health care use and costs. As a postdoctoral researcher at INRAE, I started a project on the effects of in-utero exposure to pesticides on health at birth and during early childhood.</p>
-<p>My CV is available <a href="Academic_CV_Mink.pdf" target="_blank">here</a>.</p>
+<p>I am the Argelander Professor of Environmental Economics,
+Sustainability and Inequality (Tenure Track Assistant Professor) at the
+<a href="https://www.uni-bonn.de/en/" target="_blank">University of
+Bonn</a>. Prior to this, I worked as a Postdoctoral Researcher at the <a
+href="https://www.inrae.fr/en/about-us" target="_blank">French National
+Research Institute for Agriculture, Food and Environment (INRAE)</a>. I
+received my PhD in Economics from <a
+href="https://www.sciencespo.fr/department-economics/en.html"
+target="_blank">Sciences Po</a>.</p>
+<p>I am an empirical economist specialised in the implementation of
+quasi-experimental methods and the exploitation of large spatio-temporal
+data sets. My research interests lie in the fields of health and
+environmental economics, and particularly at the intersection of the
+two.</p>
+<p>My aim is to provide information relevant to environmental and
+climate policy by quantifying the societal costs of pollution and
+climate change. Of particular interest to me is the study of
+inequalities in this context.</p>
+<p>I am currently estimating the health costs of acute exposure to air
+pollution for the French health system and have just started a project
+on the health effects of in-utero exposure to pesticides at birth and
+during early childhood.</p>
+<p>My CV is available <a href="Academic_CV_Mink.pdf"
+target="_blank">here</a>.</p>
 </div>
 
 

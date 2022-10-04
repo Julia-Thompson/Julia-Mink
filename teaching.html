@@ -11,10 +11,10 @@
 
 
 
-<title>Teaching</title>
+<title>teaching.knit</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -234,7 +242,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -283,29 +291,58 @@ $(document).ready(function () {
 <div id="teaching" class="section level1">
 <h1>Teaching</h1>
 <p><br></p>
-<div id="public-economics---lecturer" class="section level4">
-<h4>Public Economics <span style="color:gray"> <font size="4"> - Lecturer </font> </span></h4>
-<p>Sciences Po School of Public Affairs, Graduate course, Fall 2020 &amp; Fall 2021 <br><br></p>
+<div id="introduction-to-econometrics---lecturer"
+class="section level4">
+<h4>Introduction to Econometrics <span style="color:gray">
+<font size="4"> - Lecturer </font> </span></h4>
+<p>University of Bonn, Undergraduate course, Fall 2022 <br><br></p>
 </div>
-<div id="principles-of-micro--and-macroeconomics---graduate-student-instructor" class="section level4">
-<h4>Principles of micro- and macroeconomics <span style="color:gray"> <font size="4"> - Graduate Student Instructor </font> </span></h4>
-<p>Sciences Po, Undergraduate course, Fall 2017 &amp; Fall 2018, Professors Yann Algan and Guillaume Plantin</p>
+<div id="public-economics---lecturer" class="section level4">
+<h4>Public Economics <span style="color:gray"> <font size="4"> -
+Lecturer </font> </span></h4>
+<p>Sciences Po School of Public Affairs, Graduate course, Fall 2020
+&amp; Fall 2021 <br><br></p>
+</div>
+<div
+id="principles-of-micro--and-macroeconomics---graduate-student-instructor"
+class="section level4">
+<h4>Principles of micro- and macroeconomics <span style="color:gray">
+<font size="4"> - Graduate Student Instructor </font> </span></h4>
+<p>Sciences Po, Undergraduate course, Fall 2017 &amp; Fall 2018,
+Professors Yann Algan and Guillaume Plantin</p>
 <hr />
 </div>
-<div id="trade-and-international-finance---teaching-assistant" class="section level4">
-<h4>Trade and International Finance <span style="color:gray"> <font size="4"> - Teaching assistant </font> </span></h4>
-<p>Sciences Po, Undergraduate course, Spring 2021, Professor Philippe Martin <br><br></p>
+<div id="trade-and-international-finance---teaching-assistant"
+class="section level4">
+<h4>Trade and International Finance <span style="color:gray">
+<font size="4"> - Teaching assistant </font> </span></h4>
+<p>Sciences Po, Undergraduate course, Spring 2021, Professor Philippe
+Martin <br><br></p>
 </div>
-<div id="perspectives-in-economics-and-sociology---teaching-assistant" class="section level4">
-<h4>Perspectives in Economics and Sociology <span style="color:gray"> <font size="4"> - Teaching assistant </font> </span></h4>
-<p>Sciences Po, Undergraduate course, Spring 2021, Professors Roberto Galbiati and Mirna Safi <br><br></p>
+<div id="perspectives-in-economics-and-sociology---teaching-assistant"
+class="section level4">
+<h4>Perspectives in Economics and Sociology <span style="color:gray">
+<font size="4"> - Teaching assistant </font> </span></h4>
+<p>Sciences Po, Undergraduate course, Spring 2021, Professors Roberto
+Galbiati and Mirna Safi <br><br></p>
 </div>
-<div id="principles-of-micro--and-macroeconomics---coordinator-teaching-assistant" class="section level4">
-<h4>Principles of micro- and macroeconomics <span style="color:gray"> <font size="4"> - Coordinator &amp; Teaching assistant </font> </span></h4>
-<p>Sciences Po, Undergraduate course, Fall 2019 &amp; Fall 2020, Professors Yann Algan, Kerstin Holzheu and Jeanne Commault Coordination between tutors, professors, administration, teaching assistance <br><br></p>
+<div
+id="principles-of-micro--and-macroeconomics---coordinator-teaching-assistant"
+class="section level4">
+<h4>Principles of micro- and macroeconomics <span style="color:gray">
+<font size="4"> - Coordinator &amp; Teaching assistant </font>
+</span></h4>
+<p>Sciences Po, Undergraduate course, Fall 2019 &amp; Fall 2020,
+Professors Yann Algan, Kerstin Holzheu and Jeanne Commault Coordination
+between tutors, professors, administration, teaching assistance
+<br><br></p>
 </div>
-<div id="the-economics-of-the-media-a-global-perspective---teaching-assistant" class="section level4">
-<h4>The Economics of the Media: A Global Perspective <span style="color:gray"> <font size="4"> - Teaching assistant </font> </span></h4>
+<div
+id="the-economics-of-the-media-a-global-perspective---teaching-assistant"
+class="section level4">
+<h4>The Economics of the Media: A Global Perspective <span
+style="color:gray"> <font size="4"> - Teaching assistant </font>
+</span></h4>
 <p>Sciences Po, Graduate course, Fall 2018, Professor Julia Cagé</p>
 </div>
 </div>

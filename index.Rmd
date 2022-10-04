@@ -6,13 +6,13 @@
 
 <img src="personal_webpage_photo.jpg" style="width:30%; border:0px solid; margin-top: 1px; margin-bottom: 0px; margin-right: 30px ; margin-left: 30px" align="right">
 
-I am a Postdoctoral Research Fellow at the [French National Research Institute for Agriculture, Food and Environment (INRAE)](https://www.inrae.fr/en/about-us){target="_blank"}.
-This fall, I will join the Faculty of Law and Economics of the University of Bonn as Argelander Professor for Environmental Economics, Sustainability and Inequality (W1, tenure track).
+I am the Argelander Professor of Environmental Economics, Sustainability and Inequality (Tenure Track Assistant Professor) at the [University of Bonn](https://www.uni-bonn.de/en/){target="_blank"}. Prior to this, I worked as a Postdoctoral Researcher at the [French National Research Institute for Agriculture, Food and Environment (INRAE)](https://www.inrae.fr/en/about-us){target="_blank"}. I received my PhD in Economics from [Sciences Po](https://www.sciencespo.fr/department-economics/en.html){target="_blank"}. 
 
+I am an empirical economist specialised in the implementation of quasi-experimental methods and the exploitation of large spatio-temporal data sets. My research interests lie in the fields of health and environmental economics, and particularly at the intersection of the two. 
 
-I am an applied economist specialised in the implementation of quasi-experimental methods and the exploitation of large spatio-temporal data sets. My research interests lie in the fields of health and environmental economics, and particularly at the intersection of the two. I am interested in how the experience of major life events and the exposure to adverse environmental conditions affect health and health-related outcomes.
+My aim is to provide information relevant to environmental and climate policy by quantifying the societal costs of pollution and climate change. Of particular interest to me is the study of inequalities in this context.
 
-I have studied the effects of divorce and retirement on household economic resources and diet, I have looked at the consequences of early-life exposure to war on adult health, and, more recently, I am investigating the effects of exposure to air pollution on health care use and costs. As a postdoctoral researcher at INRAE, I started a project on the effects of in-utero exposure to pesticides on health at birth and during early childhood.
+I am currently estimating the health costs of acute exposure to air pollution for the French health system and have just started a project on the health effects of in-utero exposure to pesticides at birth and during early childhood.
 
 
 My CV is available [here](Academic_CV_Mink.pdf){target="_blank"}.

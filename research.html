@@ -11,10 +11,10 @@
 
 
 
-<title>Research</title>
+<title>research.knit</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -234,7 +242,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -286,66 +294,191 @@ $(document).ready(function () {
 <div id="working-papers" class="section level3">
 <h3>Working papers</h3>
 <hr />
-<div id="job-market-paper" class="section level4">
-<h4><strong>[JOB MARKET PAPER]</strong></h4>
-</div>
-<div id="putting-a-price-tag-on-air-pollution-the-short-term-consequences-of-air-pollution-on-health-care-use-and-costs-in-france" class="section level4">
-<h4><strong>Putting a price tag on air pollution: the short-term consequences of air pollution on health care use and costs in France</strong></h4>
-<p>I estimate the causal effects of air pollution on healthcare costs in France by combining administrative data on healthcare reimbursements with reanalysis data on air pollution concentrations and weather conditions. I adopt an instrumental variable approach where I exploit daily postcode-level variation in nitrogen dioxide, ground-level ozone and particulate matter concentrations induced by variation in wind speed. I explore effect heterogeneity by patient and location characteristics and by medical speciality. This study presents evidence for substantial healthcare costs caused by exposure to pollution levels that are predominantly situated below current European legal limits. The effects are several orders of magnitude larger than those estimated in the previous literature, suggesting that the healthcare costs of air pollution have been severely underestimated. I find significant heterogeneity of effects across location and patient characteristics, indicating that air pollution reduction policies have the potential to reduce health inequalities.</p>
-<p><a href="Air_pollution_article.pdf" target="_blank">Full text available here</a> [Job market paper]</p>
+<div
+id="putting-a-price-tag-on-air-pollution-the-short-term-consequences-of-air-pollution-on-health-care-use-and-costs-in-france"
+class="section level4">
+<h4><strong>Putting a price tag on air pollution: the short-term
+consequences of air pollution on health care use and costs in
+France</strong></h4>
+<p>I estimate the causal effects of air pollution on healthcare costs in
+France by combining administrative data on healthcare reimbursements
+with reanalysis data on air pollution concentrations and weather
+conditions. I adopt an instrumental variable approach where I exploit
+daily postcode-level variation in nitrogen dioxide, ground-level ozone
+and particulate matter concentrations induced by variation in wind
+speed. I explore effect heterogeneity by patient and location
+characteristics and by medical speciality. This study presents evidence
+for substantial healthcare costs caused by exposure to pollution levels
+that are predominantly situated below current European legal limits. The
+effects are several orders of magnitude larger than those estimated in
+the previous literature, suggesting that the healthcare costs of air
+pollution have been severely underestimated. I find significant
+heterogeneity of effects across location and patient characteristics,
+indicating that air pollution reduction policies have the potential to
+reduce health inequalities.</p>
+<!-- [Full text available here](Air_pollution_article.pdf){target="_blank"} [Job market paper] -->
 <p><br></p>
 </div>
-<div id="broken-homes-and-empty-pantries-the-impact-of-partnership-dissolution-on-household-economic-resources" class="section level4">
-<h4><strong>Broken homes and empty pantries: The impact of partnership dissolution on household economic resources</strong></h4>
-<p>This study investigates the impact of a couple’s break-up on the economic resources of the household by studying changes in income and food purchases around the time of separation in a panel of French households. I estimate a household fixed effects model to account for unobserved time-invariant household characteristics while controlling for additional time-varying covariates. Household income and food purchases decrease suddenly and significantly at the time of separation and remain lower than pre-separation levels for several years after the break-up. The decrease in food purchases appears to translate into a slight decrease in the female partner’s body mass index (BMI). The share of unhealthy food purchases increases shortly before, during and after separation, indicating that the composition of food purchases changes as well. The decline in food purchases and BMI mainly affects households in the lowest pre-separation income tercile, suggesting that these changes are due to insufficiency of financial resources.</p>
-<p><a href="Separation_April_2020.pdf" target="_blank">Full text available here</a></p>
+<div
+id="broken-homes-and-empty-pantries-the-impact-of-partnership-dissolution-on-household-economic-resources"
+class="section level4">
+<h4><strong>Broken homes and empty pantries: The impact of partnership
+dissolution on household economic resources</strong></h4>
+<p>This study investigates the impact of a couple’s break-up on the
+economic resources of the household by studying changes in income and
+food purchases around the time of separation in a panel of French
+households. I estimate a household fixed effects model to account for
+unobserved time-invariant household characteristics while controlling
+for additional time-varying covariates. Household income and food
+purchases decrease suddenly and significantly at the time of separation
+and remain lower than pre-separation levels for several years after the
+break-up. The decrease in food purchases appears to translate into a
+slight decrease in the female partner’s body mass index (BMI). The share
+of unhealthy food purchases increases shortly before, during and after
+separation, indicating that the composition of food purchases changes as
+well. The decline in food purchases and BMI mainly affects households in
+the lowest pre-separation income tercile, suggesting that these changes
+are due to insufficiency of financial resources.</p>
+<!-- [Full text available here](Separation_April_2020.pdf){target="_blank"} -->
 <p><br></p>
 </div>
 </div>
 <div id="publications" class="section level3">
 <h3>Publications</h3>
 <hr />
-<div id="the-long-run-effects-of-war-on-health-evidence-from-world-war-ii-in-france-social-science-medicine-2021" class="section level4">
-<h4><strong>The long-run effects of war on health: Evidence from World War II in France</strong>, <em>Social Science &amp; Medicine</em> (2021)</h4>
+<div
+id="the-long-run-effects-of-war-on-health-evidence-from-world-war-ii-in-france-social-science-medicine-2021"
+class="section level4">
+<h4><strong>The long-run effects of war on health: Evidence from World
+War II in France</strong>, <em>Social Science &amp; Medicine</em>
+(2021)</h4>
 <p>with Olivier Allais &amp; Guy Fagherazzi</p>
-<p>We investigate the effects of early-life exposure to war on adult health outcomes including cancer, hypertension, angina, infarction, diabetes and obesity. We combine data from the French prospective cohort study E3N on women employed in the French National Education with historical data on World War II. To identify causal effects, we exploit exogenous spatial and temporal variation in war exposure related to the German invasion of France during the Battle of France. The number of French military casualties at the level of the postcode area serves as main measure of exposure. Our results suggest that exposure to the war during the first 5 years of life has significant adverse effects on health in adulthood. A 10 percent increase in the number of deaths per 100,000 inhabitants in the individual’s postcode area of birth increases the probability of suffering from any of the health conditions considered in this study by 0.08 percentage points. This is relative to a mean of 49 percent for the sample as a whole.</p>
-<p><a href="https://doi.org/10.1016/j.socscimed.2021.113812" target="_blank">Full text available here</a></p>
+<p>We investigate the effects of early-life exposure to war on adult
+health outcomes including cancer, hypertension, angina, infarction,
+diabetes and obesity. We combine data from the French prospective cohort
+study E3N on women employed in the French National Education with
+historical data on World War II. To identify causal effects, we exploit
+exogenous spatial and temporal variation in war exposure related to the
+German invasion of France during the Battle of France. The number of
+French military casualties at the level of the postcode area serves as
+main measure of exposure. Our results suggest that exposure to the war
+during the first 5 years of life has significant adverse effects on
+health in adulthood. A 10 percent increase in the number of deaths per
+100,000 inhabitants in the individual’s postcode area of birth increases
+the probability of suffering from any of the health conditions
+considered in this study by 0.08 percentage points. This is relative to
+a mean of 49 percent for the sample as a whole.</p>
+<p><a href="https://doi.org/10.1016/j.socscimed.2021.113812"
+target="_blank">Full text available here</a></p>
 <p><br></p>
 </div>
-<div id="associations-between-early-life-food-deprivation-during-world-war-ii-and-risk-of-hypertension-and-type-2-diabetes-at-adulthood-scientific-reports-2020" class="section level4">
-<h4><strong>Associations between early-life food deprivation during World War II and risk of hypertension and type 2 diabetes at adulthood</strong>, <em>Scientific Reports</em> (2020)</h4>
-<p>with Marie-Christine Boutron-Ruault, Marie-Aline Charles, Olivier Allais &amp; Guy Fagherazzi</p>
-<p>The Developmental Origins of Health and Disease (DOHaD) framework suggests that early-life experiences affect long-term health outcomes. We tested this hypothesis by estimating the long-run effects of exposure to World War II-related food deprivation during childhood and adolescence on the risk of suffering from hypertension and type 2 diabetes at adulthood for 90,226 women from the French prospective cohort study E3N. We found that the experience of food deprivation during early-life was associated with a higher risk of developing type 2 diabetes (+0.7%, 95% CI: 0.073–1.37%) and hypertension (+2.6%, 95% CI: 0.81–4.45%). Effects were stronger for individuals exposed at younger ages. Exposed individuals also achieved lower levels of education, slept less, and were more frequently smokers than unexposed individuals. These results are compatible with both the latency and the pathway models proposed in the DOHaD framework which theorise the association between early life exposure and adult health through both a direct link and an indirect link where changes in health determinants mediate health outcomes.</p>
-<p><a href="https://doi.org/10.1038/s41598-020-62576-w" target="_blank">Full text available here</a></p>
+<div
+id="associations-between-early-life-food-deprivation-during-world-war-ii-and-risk-of-hypertension-and-type-2-diabetes-at-adulthood-scientific-reports-2020"
+class="section level4">
+<h4><strong>Associations between early-life food deprivation during
+World War II and risk of hypertension and type 2 diabetes at
+adulthood</strong>, <em>Scientific Reports</em> (2020)</h4>
+<p>with Marie-Christine Boutron-Ruault, Marie-Aline Charles, Olivier
+Allais &amp; Guy Fagherazzi</p>
+<p>The Developmental Origins of Health and Disease (DOHaD) framework
+suggests that early-life experiences affect long-term health outcomes.
+We tested this hypothesis by estimating the long-run effects of exposure
+to World War II-related food deprivation during childhood and
+adolescence on the risk of suffering from hypertension and type 2
+diabetes at adulthood for 90,226 women from the French prospective
+cohort study E3N. We found that the experience of food deprivation
+during early-life was associated with a higher risk of developing type 2
+diabetes (+0.7%, 95% CI: 0.073–1.37%) and hypertension (+2.6%, 95% CI:
+0.81–4.45%). Effects were stronger for individuals exposed at younger
+ages. Exposed individuals also achieved lower levels of education, slept
+less, and were more frequently smokers than unexposed individuals. These
+results are compatible with both the latency and the pathway models
+proposed in the DOHaD framework which theorise the association between
+early life exposure and adult health through both a direct link and an
+indirect link where changes in health determinants mediate health
+outcomes.</p>
+<p><a href="https://doi.org/10.1038/s41598-020-62576-w"
+target="_blank">Full text available here</a></p>
 <p><br></p>
 </div>
-<div id="changes-in-food-purchases-at-retirement-in-france-food-policy-2020" class="section level4">
-<h4><strong>Changes in food purchases at retirement in France</strong>, <em>Food Policy</em> (2020)</h4>
+<div
+id="changes-in-food-purchases-at-retirement-in-france-food-policy-2020"
+class="section level4">
+<h4><strong>Changes in food purchases at retirement in France</strong>,
+<em>Food Policy</em> (2020)</h4>
 <p>with Olivier Allais &amp; Pascal Leroy</p>
-<p>We estimate the impact of retirement on food expenditure and food quantities purchased, using detailed home-scan panel data on food purchases and household characteristics in France. We identify a causal relationship by exploiting the French legal minimum age for retirement as an exogenous shock to retirement behavior. Upon retirement, households significantly decrease their expenditure on food and the amount of food purchased. Households with lower pre-retirement income appear to be more severely affected. Our results indicate that the decrease in food quantities purchased at the aggregate level is driven by a decline in purchases of food from animal origins. A reduced consumption of animal based food products is likely to undermine the diet balance of retirees.</p>
-<p><a href="https://doi.org/10.1016/j.foodpol.2019.101806" target="_blank">Full text available here</a></p>
+<p>We estimate the impact of retirement on food expenditure and food
+quantities purchased, using detailed home-scan panel data on food
+purchases and household characteristics in France. We identify a causal
+relationship by exploiting the French legal minimum age for retirement
+as an exogenous shock to retirement behavior. Upon retirement,
+households significantly decrease their expenditure on food and the
+amount of food purchased. Households with lower pre-retirement income
+appear to be more severely affected. Our results indicate that the
+decrease in food quantities purchased at the aggregate level is driven
+by a decline in purchases of food from animal origins. A reduced
+consumption of animal based food products is likely to undermine the
+diet balance of retirees.</p>
+<p><a href="https://doi.org/10.1016/j.foodpol.2019.101806"
+target="_blank">Full text available here</a></p>
 <p><br></p>
 </div>
 </div>
 <div id="work-in-progress" class="section level3">
 <h3>Work in progress</h3>
 <hr />
-<div id="health-outcomes-of-residential-agricultural-pesticide-exposure-causal-modelling-from-observational-data" class="section level4">
-<h4><strong>Health outcomes of residential agricultural pesticide exposure: Causal modelling from observational data</strong></h4>
+<div
+id="health-outcomes-of-residential-agricultural-pesticide-exposure-causal-modelling-from-observational-data"
+class="section level4">
+<h4><strong>Health outcomes of residential agricultural pesticide
+exposure: Causal modelling from observational data</strong></h4>
 <p>with Olivier Allais, Philippe Caillou &amp; Michèle Sébag</p>
-<p>The goal of this study is to rigorously assess the adverse impact of residential pesticide diffusion on residents living close to agricultural lands, exposed to pesticides via spray drift and volatilising beyond the treated areas. This population is largely absent in studies to date. We exploit sensitive health data in combination with newly available data on pesticide pollution. For the sake of a clear focus, we will rely on the body of knowledge relating the exposure to some molecules at precise stages of the pregnancy, to the impaired development of specific cognitive and biological systems. Accordingly, the study will focus on the short and medium-term pesticide impact on newborns and children. We use quasi-experimental methods and new machine learning approaches for causal inference to face the main challenges of non-linearity of the effects, high dimensionality of the potential causes (cocktail effect), data incompleteness, and hidden confounding factors. The innovative value of the study is twofold. In terms of application, we aims to assess the pesticide risk on health at birth and in childhood, a current major health and societal issue. In terms of methodology, we aims to build a general methodology applicable to the analysis of industrial risks, handling spatio-temporal data with their limitations, and rigorously establishing the nature and amounts of risks incurred <span class="math inline">\(-\)</span> offering an alternative to waiting until lethal risk become undeniable.</p>
+<p>We assess the adverse impact of residential pesticide diffusion on
+residents living close to agricultural lands, exposed to pesticides via
+spray drift and volatilisation beyond the treated areas. This population
+is largely absent in studies to date. We exploit sensitive health data
+in combination with newly available data on pesticide pollution. For the
+sake of a clear focus, we will rely on the body of knowledge relating
+the exposure to some molecules at precise stages of the pregnancy, to
+the impaired development of specific cognitive and biological systems.
+Accordingly, the study will focus on the short and medium-term pesticide
+impact on newborns and children. We use quasi-experimental methods and
+new machine learning approaches for causal inference to face the main
+challenges of non-linearity of the effects, high dimensionality of the
+potential causes (cocktail effect), data incompleteness, and hidden
+confounding factors.</p>
 <p><br></p>
 </div>
-<div id="reactive-or-proactive-capturing-adaptation-to-climate-change-using-machine-learning-and-behavioral-theories" class="section level4">
-<h4><strong>Reactive or proactive? Capturing adaptation to climate change using machine learning and behavioral theories</strong></h4>
-<p>with Fabien Forge</p>
-<p>We study the determinants of climate change adaptation using both machine learning and economic theory. For farmers, crop choice is one of the most effective and cheapest way of mitigating the effects of climate change. Yet it is unclear whether farmers’ adapt in reaction to past weather realisations or in anticipation of climate change. We attempt to answer this question by testing two theories: one in which farmers are only backward looking and a second in which they are also forward looking. Since these two behavioural models do not leave in the same parameter space, we follow Fudenberg et al. (2020) and measure how `complete’ each theory is by comparing their predictive performance to a predictive upper bound defined using machine learning.</p>
-<p><br></p>
-</div>
-<div id="air-pollution-and-choice-of-place-of-residence" class="section level4">
+<div id="air-pollution-and-choice-of-place-of-residence"
+class="section level4">
 <h4><strong>Air pollution and choice of place of residence</strong></h4>
 <p>with Olivier Allais and Antoine Nebout</p>
-<p>We investigate whether individual preferences such as attitudes towards risk, time and ambiguity are correlated with an individual’s exposure to air pollution through her choice of residence and how this impacts health outcomes. For this, we add a module with questions concerning individual preferences for the new wave of data collection of the French cohort study CONSTANCES. This project is currently at the data collection stage.</p>
+<p>We investigate whether individual preferences such as attitudes
+towards risk, time and ambiguity are correlated with an individual’s
+exposure to air pollution through her choice of residence and how this
+impacts health outcomes. For this, we add a module with questions
+concerning individual preferences for the new wave of data collection of
+the French cohort study CONSTANCES. This project is currently at the
+data collection stage.</p>
+<p><br></p>
+</div>
+<div
+id="reactive-or-proactive-capturing-adaptation-to-climate-change-using-machine-learning-and-behavioral-theories"
+class="section level4">
+<h4><strong>Reactive or proactive? Capturing adaptation to climate
+change using machine learning and behavioral theories</strong></h4>
+<p>with Fabien Forge</p>
+<p>We study the determinants of climate change adaptation using both
+machine learning and economic theory. For farmers, crop choice is one of
+the most effective and cheapest way of mitigating the effects of climate
+change. Yet it is unclear whether farmers’ adapt in reaction to past
+weather realisations or in anticipation of climate change. We attempt to
+answer this question by testing two theories: one in which farmers are
+only backward looking and a second in which they are also forward
+looking. Since these two behavioural models do not leave in the same
+parameter space, we follow Fudenberg et al. (2020) and measure how
+`complete’ each theory is by comparing their predictive performance to a
+predictive upper bound defined using machine learning.</p>
 </div>
 </div>
 </div>

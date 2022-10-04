@@ -4,43 +4,41 @@
 ***
 
 
-**Sciences Po**  
-28 rue des Saints-Pères  
-75007 Paris  
-[julia.mink@sciencespo.fr](mailto:julia.mink@sciencespo.fr)
+**University of Bonn**  
+Institute for Applied Microeconomics  
+Lennéstrasse 43  
+53113 Bonn  
+[julia.mink@uni-bonn.de](mailto:julia.mink@uni-bonn.fr)
 <br>
 
 
-**INRAE**  
-65 Boulevard de Brandebourg  
-94200 Ivry-sur-Seine  
-<br>
 
-## References
-***
 
-**Olivier Allais**  
-Senior economis, INRAE  
-Head of research unit ALISS  
-[olivier.allais@inrae.fr](mailto:olivier.allais@inrae.fr){target="_blank"}
-<br>
+<!-- ## References -->
+<!-- *** -->
 
-**Etienne Wasmer**  
-Professor of Economics  
-New York University in Abu Dhabi  
-[ew1555@nyu.edu](mailto:ew1555@nyu.edu){target="_blank"}
-<br>
+<!-- **Olivier Allais**   -->
+<!-- Senior economis, INRAE   -->
+<!-- Head of research unit ALISS   -->
+<!-- [olivier.allais@inrae.fr](mailto:olivier.allais@inrae.fr){target="_blank"} -->
+<!-- <br> -->
 
-**Yann Algan**  
-Associate Dean of Pre-experience Programs at HEC  
-Professor of Economics  
-[algan@hec.fr](mailto:algan@hec.fr){target="_blank"}
-<br>
+<!-- **Etienne Wasmer**   -->
+<!-- Professor of Economics   -->
+<!-- New York University in Abu Dhabi   -->
+<!-- [ew1555@nyu.edu](mailto:ew1555@nyu.edu){target="_blank"} -->
+<!-- <br> -->
 
-**Sergei Guriev**  
-Professor of Economics  
-Sciences Po, Department of Economics  
-[sergei.guriev@sciencespo.fr](mailto:sergei.guriev@sciencespo.fr){target="_blank"}
+<!-- **Yann Algan**   -->
+<!-- Associate Dean of Pre-experience Programs at HEC   -->
+<!-- Professor of Economics   -->
+<!-- [algan@hec.fr](mailto:algan@hec.fr){target="_blank"} -->
+<!-- <br> -->
+
+<!-- **Sergei Guriev**   -->
+<!-- Professor of Economics   -->
+<!-- Sciences Po, Department of Economics   -->
+<!-- [sergei.guriev@sciencespo.fr](mailto:sergei.guriev@sciencespo.fr){target="_blank"} -->
 
 
 
