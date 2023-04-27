@@ -8,7 +8,7 @@
 Institute for Applied Microeconomics  
 Lennéstrasse 43  
 53113 Bonn  
-[julia.mink@uni-bonn.de](mailto:julia.mink@uni-bonn.fr)
+[julia.mink@uni-bonn.de](mailto:julia.mink@uni-bonn.de)
 <br>
 
 
