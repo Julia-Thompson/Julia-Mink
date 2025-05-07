@@ -7,26 +7,25 @@
 ### Working papers
 ***
 
-#### **Putting a price tag on air pollution: the short-term consequences of air pollution on health care use and costs in France** 
+#### **The Healthcare Costs of Air Pollution in France** 
 
-I estimate the causal effects of air pollution on healthcare costs in France by combining administrative data on healthcare reimbursements with reanalysis data on air pollution concentrations and weather conditions.
-I adopt an instrumental variable approach where I exploit daily postcode-level variation in nitrogen dioxide, ground-level ozone and particulate matter concentrations induced by variation in wind speed.
-I explore effect heterogeneity by patient and location characteristics and by medical speciality. 
-This study presents evidence for substantial healthcare costs caused by exposure to pollution levels that are predominantly situated below current European legal limits. The effects are several orders of magnitude larger than those estimated in the previous literature, suggesting that the healthcare costs of air pollution have been severely underestimated.
-I find significant heterogeneity of effects across location and patient characteristics, indicating that air pollution reduction policies have the potential to reduce health inequalities.
+I estimate the causal impact of short-term exposure to nitrogen dioxide (NO2), ground-level ozone (O3), and particulate matter (PM) on healthcare costs in France. I construct a large-scale dataset by linking administrative healthcare expenditures for a nationally representative sample with high-resolution air pollution and meteorological data. To address endogeneity concerns related to economic activity, I implement an instrumental variable (IV) strategy that exploits weekly variations in altitude atmospheric conditions including thermal inversions, wind speed, and the height of the planetary boundary layer. My findings reveal that air pollution, even at concentrations below current European air quality standards, imposes annual healthcare costs that exceed earlier estimates by a factor of ten. Heterogeneity analyses show that pollution affects multiple medical specialties, including cardiology, pulmonology, and ophthalmology, while placebo specialties, such as trauma surgery, exhibit no significant effects. Contrary to prior work focusing on children and the elderly, I find that adverse health outcomes extend across all age groups, demonstrating broader population vulnerability. Moreover, marginal effects prove larger at lower pollution levels, implying a concave dose-response function that underscores the potential for substantial cost savings from even modest pollution abatement in relatively clean areas. These results suggest that earlier cost-benefit analyses likely undervalue the societal gains from stricter environmental regulation.
 
-<!-- [Full text available here](Air_pollution_article.pdf){target="_blank"} [Job market paper] -->
+
+[Full text available here](Air_pollution_article.pdf){target="_blank"} 
+
+[Podcast (in German)](https://www.podcast.de/episode/624965610/klima-4-die-schmutzkosten){target="_blank"}
+
 
 
 <br>
 
 #### **Broken homes and empty pantries: The impact of partnership dissolution on household economic resources**
 
-This study investigates the impact of a couple's break-up on the economic resources of the household by studying changes in income and food purchases around the time of separation in a panel of French households.
-I estimate a household fixed effects model to account for unobserved time-invariant household characteristics while controlling for additional time-varying covariates.
-Household income and food purchases decrease suddenly and significantly at the time of separation and remain lower than pre-separation levels for several years after the break-up. The decrease in food purchases appears to translate into a slight decrease in the female partner's body mass index (BMI). The share of unhealthy food purchases increases shortly before, during and after separation, indicating that the composition of food purchases changes as well. The decline in food purchases and BMI mainly affects households in the lowest pre-separation income tercile, suggesting that these changes are due to insufficiency of financial resources.
+This study sheds new light on the impact of couple separation on household living standards by considering the effects of separation on measures reflecting the adequacy of food consumption in addition to more commonly studied income and expenditure measures. Using an event study approach with panel data from France, I examine changes in household disposable income, food expenditure and food quantities purchased, diet quality and household member’s body weight at the time of separation and up to eight years later, compared to a control group of households that did not separate. Disposable income, food expenditure and quantities purchased adjusted for household size fall by around 20%-25% after separation and until the end of the observation window. The ex-partner’s body mass index (weight for height measure) falls by 1.5% in the first three years after separation and diet quality worsens. A possible interpretation of the results is that living standards fall to the point where households cannot maintain a minimum level of consumption to meet their dietary needs, resulting in
+measurable weight loss.
 
-<!-- [Full text available here](Separation_April_2020.pdf){target="_blank"} -->
+[Full text available here](Separation_April_2023.pdf){target="_blank"}
 
 <br>
 
@@ -73,8 +72,8 @@ We estimate the impact of retirement on food expenditure and food quantities pur
 ### Work in progress
 ***
 
-#### **Health outcomes of residential agricultural pesticide exposure: Causal modelling from observational data** 
-with Olivier Allais, Philippe Caillou & Michèle Sébag
+#### **Health outcomes of residential agricultural pesticide exposure: Causal modelling from observational data (Project HORAPEST)** 
+with Olivier Allais, Philippe Caillou, Cyriaque Rousselot, et Florian Yger
 
 We assess the adverse impact of residential pesticide diffusion on residents living close to agricultural lands, exposed to pesticides via spray drift and volatilisation beyond the treated areas. This population is largely absent in studies to date. We exploit sensitive health data in combination with newly available data on pesticide pollution. For the sake of a clear focus, we will rely on the body of knowledge relating the exposure to some molecules at precise stages of the pregnancy, to the impaired development of specific cognitive and biological systems. Accordingly, the study will focus on the short and medium-term pesticide impact on newborns and children.  We use quasi-experimental methods and new machine learning approaches for causal inference to face the main challenges of non-linearity of the effects, high dimensionality of the potential causes (cocktail effect), data incompleteness, and hidden confounding factors.
 
@@ -82,7 +81,7 @@ We assess the adverse impact of residential pesticide diffusion on residents liv
 
 
 
-#### **Air pollution and choice of place of residence** 
+#### **Air pollution and choice of place of residence (Project ANR BeHealth)** 
 with Olivier Allais and Antoine Nebout
 
 We investigate whether individual preferences such as attitudes towards risk, time and ambiguity are correlated with an individual’s exposure to air pollution through her choice of residence and how this impacts health outcomes. For this, we add a module with questions concerning individual preferences for the new wave of data collection of the French cohort study CONSTANCES. This project is currently at the data collection stage.
@@ -90,15 +89,30 @@ We investigate whether individual preferences such as attitudes towards risk, ti
 <br>
 
 
-#### **Reactive or proactive? Capturing adaptation to climate change using machine learning and behavioral theories** 
-with Fabien Forge
+#### **The Cost of Long-Term Cumulative Exposure to Air Pollution: Quasi-experimental Evidence from France (Project SCCAIR)** 
+with Emeline Lequy-Flahault, Marion Leroutier, Hélène Ollivier and Aurélien Saussay 
 
-We study the determinants of climate change adaptation using both machine learning and economic theory. For farmers, crop choice is one of the most effective and cheapest way of mitigating the effects of climate change. Yet it is unclear whether farmers’ adapt in reaction to past weather realisations or in anticipation of climate change. We attempt to answer this question by testing two theories: one in which farmers are only backward looking and a second in which they are also forward looking. Since these two behavioural models do not leave in the same parameter space, we follow Fudenberg et al. (2020) and measure how `complete’ each theory is by comparing their predictive performance to a predictive upper bound defined using machine learning.
-
-
+We quantify the long-term societal costs of exposure to ambient air pollution. Leveraging detailed residential histories, we construct novel individual-level measures of cumulative exposure to air pollution in France. We exploit the large-scale shut-down of polluting power plants that took place in the 1980s, following the transition to nuclear energy, as a natural experiment to investigate the consequences of permanent air quality improvements on educational, employment and health outcomes. This project advances the literature by focusing on cumulative rather than short-term exposure, examining a broad set of educational, employment, and health outcomes, and applying quasi-experimental methods to produce plausibly unbiased estimates of air pollution’s societal costs.
 
 
+<br>
 
+
+#### **Climate Change Resilience through Health Systems: The Role of Healthcare Access in Shielding Children from Drought-Related Undernutrition in sub-Saharan Africa (Project CLIMRES-SSA)** 
+with Christoph Strupat, Martin Siegel and Paula von Haaren
+
+This study investigates whether access to healthcare can mitigate the adverse effects of in-utero exposure to climate shocks—specifically droughts and floods—on early childhood nutritional outcomes across 34 sub-Saharan African countries. Using geocoded microdata from the Demographic and Health Surveys (1986–2018), combined with high-resolution environmental and health systems data, we estimate the impact of climate stress during gestation on child stunting, wasting, and underweight. We exploit spatial and temporal variation in climate conditions and healthcare access—measured by travel time to facilities and service quality—to identify causal pathways. Results from interaction models and subgroup analyses offer new insights into the role of health systems as a climate resilience mechanism, particularly for vulnerable populations. This is the first multi-country study in sub-Saharan Africa to jointly analyze climate risk, healthcare access, and child health in a unified empirical framework, directly informing global debates on human development under climate change.
+
+
+<br>
+
+
+#### **The mid-term and long-term economic costs of floods: a study of the Ahr valley (Project SOZIAhr)** 
+with with Hanna Schwank, Svenja Hippel, Jacqueline Lorenzen, Susanne Bell, Kathrin Hörschelmann
+
+This study examines the medium- and long-term socioeconomic impacts of the 2021 flood in the Ahr Valley, with a focus on income and wealth inequalities. Using a difference-in-differences approach, we compare affected and unaffected households before and after the disaster to assess whether the flood exacerbated or reduced existing disparities. We also analyze how individual responses—such as relocation or access to public aid—and sociodemographic factors like age, gender, and education influence recovery trajectories. Beyond economic outcomes, the project investigates how differential exposure and recovery experiences affect attitudes toward climate adaptation and mitigation policies, perceptions of fairness, political trust, and social cohesion. By identifying mechanisms through which disasters shape inequality, the study provides evidence-based recommendations for equitable and effective reconstruction policies, aiming to strengthen regional resilience and inform responses to future extreme weather events.
+
+[Project webpage (in German)](https://www.geographie.uni-bonn.de/de/forschung/arbeitsgruppen/ag-hoerschelmann/forschung/flutkatastrophe-im-ahrtal){target="_blank"}. 
 
 
 
