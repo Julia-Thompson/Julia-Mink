@@ -37,7 +37,7 @@ measurable weight loss.
 ***
 
 #### **The long-run effects of war on health: Evidence from World War II in France**, *Social Science & Medicine* (2021)  
-with Olivier Allais & Guy Fagherazzi
+with Olivier Allais and Guy Fagherazzi
 
 
 We investigate the effects of early-life exposure to war on adult health outcomes including cancer, hypertension, angina, infarction, diabetes and obesity. We combine data from the French prospective cohort study E3N on women employed in the French National Education with historical data on World War II. To identify causal effects, we exploit exogenous spatial and temporal variation in war exposure related to the German invasion of France during the Battle of France. The number of French military casualties at the level of the postcode area serves as main measure of exposure. Our results suggest that exposure to the war during the first 5 years of life has significant adverse effects on health in adulthood. A 10 percent increase in the number of deaths per 100,000 inhabitants in the individual's postcode area of birth increases the probability of suffering from any of the health conditions considered in this study by 0.08 percentage points. This is relative to a mean of 49 percent for the sample as a whole.
@@ -48,7 +48,7 @@ We investigate the effects of early-life exposure to war on adult health outcome
 
 
 #### **Associations between early-life food deprivation during World War II and risk of hypertension and type 2 diabetes at adulthood**,  *Scientific Reports* (2020) 
-with Marie-Christine Boutron-Ruault, Marie-Aline Charles, Olivier Allais & Guy Fagherazzi
+with Marie-Christine Boutron-Ruault, Marie-Aline Charles, Olivier Allais and Guy Fagherazzi
 
 The Developmental Origins of Health and Disease (DOHaD) framework suggests that early-life experiences affect long-term health outcomes. We tested this hypothesis by estimating the long-run effects of exposure to World War II-related food deprivation during childhood and adolescence on the risk of suffering from hypertension and type 2 diabetes at adulthood for 90,226 women from the French prospective cohort study E3N. We found that the experience of food deprivation during early-life was associated with a higher risk of developing type 2 diabetes (+0.7%, 95% CI: 0.073–1.37%) and hypertension (+2.6%, 95% CI: 0.81–4.45%). Effects were stronger for individuals exposed at younger ages. Exposed individuals also achieved lower levels of education, slept less, and were more frequently smokers than unexposed individuals. These results are compatible with both the latency and the pathway models proposed in the DOHaD framework which theorise the association between early life exposure and adult health through both a direct link and an indirect link where changes in health determinants mediate health outcomes.
 
@@ -58,7 +58,7 @@ The Developmental Origins of Health and Disease (DOHaD) framework suggests that 
 
 
 #### **Changes in food purchases at retirement in France**, *Food Policy* (2020)
-with Olivier Allais & Pascal Leroy
+with Olivier Allais and Pascal Leroy
 
 We estimate the impact of retirement on food expenditure and food quantities purchased, using detailed home-scan panel data on food purchases and household characteristics in France. We identify a causal relationship by exploiting the French legal minimum age for retirement as an exogenous shock to retirement behavior. Upon retirement, households significantly decrease their expenditure on food and the amount of food purchased. Households with lower pre-retirement income appear to be more severely affected. Our results indicate that the decrease in food quantities purchased at the aggregate level is driven by a decline in purchases of food from animal origins. A reduced consumption of animal based food products is likely to undermine the diet balance of retirees.
 
@@ -73,7 +73,7 @@ We estimate the impact of retirement on food expenditure and food quantities pur
 ***
 
 #### **Health outcomes of residential agricultural pesticide exposure: Causal modelling from observational data (Project HORAPEST)** 
-with Olivier Allais, Philippe Caillou, Cyriaque Rousselot, et Florian Yger
+with Olivier Allais, Philippe Caillou, Cyriaque Rousselot and Florian Yger
 
 We assess the adverse impact of residential pesticide diffusion on residents living close to agricultural lands, exposed to pesticides via spray drift and volatilisation beyond the treated areas. This population is largely absent in studies to date. We exploit sensitive health data in combination with newly available data on pesticide pollution. For the sake of a clear focus, we will rely on the body of knowledge relating the exposure to some molecules at precise stages of the pregnancy, to the impaired development of specific cognitive and biological systems. Accordingly, the study will focus on the short and medium-term pesticide impact on newborns and children.  We use quasi-experimental methods and new machine learning approaches for causal inference to face the main challenges of non-linearity of the effects, high dimensionality of the potential causes (cocktail effect), data incompleteness, and hidden confounding factors.
 
@@ -108,11 +108,11 @@ This study investigates whether access to healthcare can mitigate the adverse ef
 
 
 #### **The mid-term and long-term economic costs of floods: a study of the Ahr valley (Project SOZIAhr)** 
-with with Hanna Schwank, Svenja Hippel, Jacqueline Lorenzen, Susanne Bell, Kathrin Hörschelmann
+with with Hanna Schwank, Svenja Hippel, Jacqueline Lorenzen, Susanne Bell and Kathrin Hörschelmann
 
 This study examines the medium- and long-term socioeconomic impacts of the 2021 flood in the Ahr Valley, with a focus on income and wealth inequalities. Using a difference-in-differences approach, we compare affected and unaffected households before and after the disaster to assess whether the flood exacerbated or reduced existing disparities. We also analyze how individual responses—such as relocation or access to public aid—and sociodemographic factors like age, gender, and education influence recovery trajectories. Beyond economic outcomes, the project investigates how differential exposure and recovery experiences affect attitudes toward climate adaptation and mitigation policies, perceptions of fairness, political trust, and social cohesion. By identifying mechanisms through which disasters shape inequality, the study provides evidence-based recommendations for equitable and effective reconstruction policies, aiming to strengthen regional resilience and inform responses to future extreme weather events.
 
-[Project webpage (in German)](https://www.geographie.uni-bonn.de/de/forschung/arbeitsgruppen/ag-hoerschelmann/forschung/flutkatastrophe-im-ahrtal){target="_blank"}. 
+[Project webpage (in German)](https://www.geographie.uni-bonn.de/de/forschung/arbeitsgruppen/ag-hoerschelmann/forschung/flutkatastrophe-im-ahrtal){target="_blank"}
 
 
 
