@@ -6,13 +6,12 @@
 
 <img src="personal_webpage_photo.jpg" style="width:30%; border:0px solid; margin-top: 1px; margin-bottom: 0px; margin-right: 30px ; margin-left: 30px" align="right">
 
-I am the Argelander Professor of Environmental Economics, Sustainability and Inequality (Tenure Track Assistant Professor) at the [University of Bonn](https://www.uni-bonn.de/en/){target="_blank"}. Prior to this, I worked as a Postdoctoral Researcher at the [French National Research Institute for Agriculture, Food and Environment (INRAE)](https://www.inrae.fr/en/about-us){target="_blank"}. I received my PhD in Economics from [Sciences Po](https://www.sciencespo.fr/department-economics/en.html){target="_blank"}. 
 
-I am an empirical economist specialised in the implementation of quasi-experimental methods and the exploitation of large spatio-temporal data sets. My research interests lie in the fields of health and environmental economics, and particularly at the intersection of the two. 
+I am the Argelander Professor of Environmental Economics, Sustainability and Inequality (Tenure Track Assistant Professor) at the [University of Bonn](https://www.uni-bonn.de/en/){target="_blank"}. Previously, I was a Postdoctoral Researcher at the [French National Research Institute for Agriculture, Food and Environment (INRAE)](https://www.inrae.fr/en/about-us){target="_blank"}. I received my PhD in Economics from [Sciences Po](https://www.sciencespo.fr/department-economics/en.html){target="_blank"}.
 
-My aim is to provide information relevant to environmental and climate policy by quantifying the societal costs of pollution and climate change. Of particular interest to me is the study of inequalities in this context.
+I am an empirical economist specialising in quasi-experimental methods and the use of large spatio-temporal administrative and survey data. My research lies in health and environmental economics—particularly their intersection—and aims to quantify the societal costs of pollution and climate change and how these costs are distributed across populations.
 
-I am currently estimating the health costs of acute exposure to air pollution for the French health system and have just started a project on the health effects of in-utero exposure to pesticides at birth and during early childhood.
+Current projects quantify: (i) the healthcare costs of short-term and cumulative exposure to ambient air pollution in France; (ii) the health effects of residential exposure to agricultural pesticides in utero and during early childhood in France; (iii) the role of healthcare access in buffering climate-shock–induced undernutrition among children in sub-Saharan Africa; and (iv) the medium- and long-run socioeconomic impacts of the 2021 Ahr Valley flood in Germany. A unifying theme is the analysis of inequalities in exposure, vulnerability and resilience. 
 
 
 My CV is available [here](Academic_CV_Mink.pdf){target="_blank"}.

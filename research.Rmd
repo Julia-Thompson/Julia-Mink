@@ -1,46 +1,150 @@
+<style>
+details {
+  margin-bottom: .5rem;   /* small space after the block */
+}
+
+details > summary.abstract {
+  cursor: pointer;
+  color: #18bc9c;
+  font-weight: 600;
+  text-decoration: none;
+  list-style: none;
+}
+details > summary.abstract::-webkit-details-marker { display: none; }
+details > summary.abstract:hover,
+details[open] > summary.abstract:focus { text-decoration: underline; }
+</style>
+
 ##
 
 # Research
 
 <br>
 
-### Working papers
+
+
+
+### Working papers and work in progress
 ***
 
 #### **The Healthcare Costs of Air Pollution in France** 
 
+<details>
+<summary>Abstract</summary>
+
 I estimate the causal impact of short-term exposure to nitrogen dioxide (NO2), ground-level ozone (O3), and particulate matter (PM) on healthcare costs in France. I construct a large-scale dataset by linking administrative healthcare expenditures for a nationally representative sample with high-resolution air pollution and meteorological data. To address endogeneity concerns related to economic activity, I implement an instrumental variable (IV) strategy that exploits weekly variations in altitude atmospheric conditions including thermal inversions, wind speed, and the height of the planetary boundary layer. My findings reveal that air pollution, even at concentrations below current European air quality standards, imposes annual healthcare costs that exceed earlier estimates by a factor of ten. Heterogeneity analyses show that pollution affects multiple medical specialties, including cardiology, pulmonology, and ophthalmology, while placebo specialties, such as trauma surgery, exhibit no significant effects. Contrary to prior work focusing on children and the elderly, I find that adverse health outcomes extend across all age groups, demonstrating broader population vulnerability. Moreover, marginal effects prove larger at lower pollution levels, implying a concave dose-response function that underscores the potential for substantial cost savings from even modest pollution abatement in relatively clean areas. These results suggest that earlier cost-benefit analyses likely undervalue the societal gains from stricter environmental regulation.
 
 
-[Full text available here](Air_pollution_article.pdf){target="_blank"} 
+</details>
 
-[Podcast (in German)](https://www.podcast.de/episode/624965610/klima-4-die-schmutzkosten){target="_blank"}
+
+[Full text available here](Air_pollution_article.pdf){target="_blank"}&nbsp;&nbsp;&nbsp;&nbsp;  [Podcast (in German)](https://www.podcast.de/episode/624965610/klima-4-die-schmutzkosten){target="_blank"}
 
 
 
 <br>
 
-#### **Broken homes and empty pantries: The impact of partnership dissolution on household economic resources**
 
-This study sheds new light on the impact of couple separation on household living standards by considering the effects of separation on measures reflecting the adequacy of food consumption in addition to more commonly studied income and expenditure measures. Using an event study approach with panel data from France, I examine changes in household disposable income, food expenditure and food quantities purchased, diet quality and household member’s body weight at the time of separation and up to eight years later, compared to a control group of households that did not separate. Disposable income, food expenditure and quantities purchased adjusted for household size fall by around 20%-25% after separation and until the end of the observation window. The ex-partner’s body mass index (weight for height measure) falls by 1.5% in the first three years after separation and diet quality worsens. A possible interpretation of the results is that living standards fall to the point where households cannot maintain a minimum level of consumption to meet their dietary needs, resulting in
-measurable weight loss.
+#### **The Cost of Long-Term Cumulative Exposure to Air Pollution: Quasi-experimental Evidence from France (Project SCCAIR)** 
+with Emeline Lequy-Flahault, Marion Leroutier, Hélène Ollivier and Aurélien Saussay 
 
-[Full text available here](Separation_April_2023.pdf){target="_blank"}
+<details>
+<summary>Abstract</summary>
+
+
+We quantify the long-term societal costs of exposure to ambient air pollution. Leveraging detailed residential histories, we construct novel individual-level measures of cumulative exposure to air pollution in France. We exploit the large-scale shut-down of polluting power plants that took place in the 1980s, following the transition to nuclear energy, as a natural experiment to investigate the consequences of permanent air quality improvements on educational, employment and health outcomes. This project advances the literature by focusing on cumulative rather than short-term exposure, examining a broad set of educational, employment, and health outcomes, and applying quasi-experimental methods to produce plausibly unbiased estimates of air pollution’s societal costs.
+
+</details>
 
 <br>
 
 
 
+#### **Health outcomes of residential agricultural pesticide exposure: Causal modelling from observational data (Project HORAPEST)** 
+with Olivier Allais, Philippe Caillou, Cyriaque Rousselot and Florian Yger
+
+<details>
+<summary>Abstract</summary>
+
+We assess the adverse impact of residential pesticide diffusion on residents living close to agricultural lands, exposed to pesticides via spray drift and volatilisation beyond the treated areas. This population is largely absent in studies to date. We exploit sensitive health data in combination with newly available data on pesticide pollution. For the sake of a clear focus, we will rely on the body of knowledge relating the exposure to some molecules at precise stages of the pregnancy, to the impaired development of specific cognitive and biological systems. Accordingly, the study will focus on the short and medium-term pesticide impact on newborns and children.  We use quasi-experimental methods and new machine learning approaches for causal inference to face the main challenges of non-linearity of the effects, high dimensionality of the potential causes (cocktail effect), data incompleteness, and hidden confounding factors.
+
+</details>
+
+<br>
+
+
+
+
+#### **Climate Change Resilience through Health Systems: The Role of Healthcare Access in Shielding Children from Drought-Related Undernutrition in sub-Saharan Africa (Project CLIMRES-SSA)** 
+with Christoph Strupat, Martin Siegel and Paula von Haaren
+
+<details>
+<summary>Abstract</summary>
+
+This study investigates whether access to healthcare can mitigate the adverse effects of in-utero exposure to climate shocks—specifically droughts and floods—on early childhood nutritional outcomes across 34 sub-Saharan African countries. Using geocoded microdata from the Demographic and Health Surveys (1986–2018), combined with high-resolution environmental and health systems data, we estimate the impact of climate stress during gestation on child stunting, wasting, and underweight. We exploit spatial and temporal variation in climate conditions and healthcare access—measured by travel time to facilities and service quality—to identify causal pathways. Results from interaction models and subgroup analyses offer new insights into the role of health systems as a climate resilience mechanism, particularly for vulnerable populations. This is the first multi-country study in sub-Saharan Africa to jointly analyze climate risk, healthcare access, and child health in a unified empirical framework, directly informing global debates on human development under climate change.
+
+</details>
+
+<br>
+
+
+#### **The mid-term and long-term economic costs of floods: a study of the Ahr valley (Project SOZIAhr)** 
+with Hanna Schwank, Svenja Hippel, Jacqueline Lorenzen, Susanne Bell and Kathrin Hörschelmann
+
+<details>
+<summary>Abstract</summary>
+
+This study examines the medium- and long-term socioeconomic impacts of the 2021 flood in the Ahr Valley, with a focus on income and wealth inequalities. Using a difference-in-differences approach, we compare affected and unaffected households before and after the disaster to assess whether the flood exacerbated or reduced existing disparities. We also analyze how individual responses—such as relocation or access to public aid—and sociodemographic factors like age, gender, and education influence recovery trajectories. Beyond economic outcomes, the project investigates how differential exposure and recovery experiences affect attitudes toward climate adaptation and mitigation policies, perceptions of fairness, political trust, and social cohesion. By identifying mechanisms through which disasters shape inequality, the study provides evidence-based recommendations for equitable and effective reconstruction policies, aiming to strengthen regional resilience and inform responses to future extreme weather events.
+
+</details>
+
+[Project webpage (in German)](https://www.geographie.uni-bonn.de/de/forschung/arbeitsgruppen/ag-hoerschelmann/forschung/flutkatastrophe-im-ahrtal){target="_blank"}
+
+
+<br>
+
+
+
+
+#### **Air pollution and choice of place of residence (Project ANR BeHealth)** 
+with Olivier Allais and Antoine Nebout
+
+<details>
+<summary>Abstract</summary>
+
+We investigate whether individual preferences such as attitudes towards risk, time and ambiguity are correlated with an individual’s exposure to air pollution through her choice of residence and how this impacts health outcomes. For this, we add a module with questions concerning individual preferences for the new wave of data collection of the French cohort study CONSTANCES. This project is currently at the data collection stage.
+
+</details>
+
+<br>
 
 
 ### Publications
 ***
 
+#### **Broken homes and empty pantries: The impact of partnership dissolution on household economic resources**, *International Review of Economics* (2025)  
+
+<details>
+<summary>Abstract</summary>
+
+This study sheds new light on the impact of couple separation on household living standards by considering the effects of separation on measures reflecting the adequacy of food consumption in addition to more commonly studied income and expenditure measures. Using an event study approach with panel data from France, I examine changes in household disposable income, food expenditure and food quantities purchased, diet quality and household member’s body weight at the time of separation and up to eight years later, compared to a control group of households that did not separate. Disposable income, food expenditure and quantities purchased adjusted for household size fall by around 20%-25% after separation and until the end of the observation window. The ex-partner’s body mass index (weight for height measure) falls by 1.5% in the first three years after separation and diet quality worsens. A possible interpretation of the results is that living standards fall to the point where households cannot maintain a minimum level of consumption to meet their dietary needs, resulting in
+measurable weight loss.
+
+</details>
+
+[Full text available here](https://doi.org/10.1007/s12232-025-00499-6){target="_blank"}
+
+<br>
+
 #### **The long-run effects of war on health: Evidence from World War II in France**, *Social Science & Medicine* (2021)  
 with Olivier Allais and Guy Fagherazzi
 
+<details>
+<summary>Abstract</summary>
 
 We investigate the effects of early-life exposure to war on adult health outcomes including cancer, hypertension, angina, infarction, diabetes and obesity. We combine data from the French prospective cohort study E3N on women employed in the French National Education with historical data on World War II. To identify causal effects, we exploit exogenous spatial and temporal variation in war exposure related to the German invasion of France during the Battle of France. The number of French military casualties at the level of the postcode area serves as main measure of exposure. Our results suggest that exposure to the war during the first 5 years of life has significant adverse effects on health in adulthood. A 10 percent increase in the number of deaths per 100,000 inhabitants in the individual's postcode area of birth increases the probability of suffering from any of the health conditions considered in this study by 0.08 percentage points. This is relative to a mean of 49 percent for the sample as a whole.
+
+</details>
 
 [Full text available here](https://doi.org/10.1016/j.socscimed.2021.113812){target="_blank"}
 
@@ -50,7 +154,12 @@ We investigate the effects of early-life exposure to war on adult health outcome
 #### **Associations between early-life food deprivation during World War II and risk of hypertension and type 2 diabetes at adulthood**,  *Scientific Reports* (2020) 
 with Marie-Christine Boutron-Ruault, Marie-Aline Charles, Olivier Allais and Guy Fagherazzi
 
+<details>
+<summary>Abstract</summary>
+
 The Developmental Origins of Health and Disease (DOHaD) framework suggests that early-life experiences affect long-term health outcomes. We tested this hypothesis by estimating the long-run effects of exposure to World War II-related food deprivation during childhood and adolescence on the risk of suffering from hypertension and type 2 diabetes at adulthood for 90,226 women from the French prospective cohort study E3N. We found that the experience of food deprivation during early-life was associated with a higher risk of developing type 2 diabetes (+0.7%, 95% CI: 0.073–1.37%) and hypertension (+2.6%, 95% CI: 0.81–4.45%). Effects were stronger for individuals exposed at younger ages. Exposed individuals also achieved lower levels of education, slept less, and were more frequently smokers than unexposed individuals. These results are compatible with both the latency and the pathway models proposed in the DOHaD framework which theorise the association between early life exposure and adult health through both a direct link and an indirect link where changes in health determinants mediate health outcomes.
+
+</details>
 
 [Full text available here](https://doi.org/10.1038/s41598-020-62576-w){target="_blank"}
 
@@ -60,59 +169,18 @@ The Developmental Origins of Health and Disease (DOHaD) framework suggests that 
 #### **Changes in food purchases at retirement in France**, *Food Policy* (2020)
 with Olivier Allais and Pascal Leroy
 
+<details>
+<summary>Abstract</summary>
+
 We estimate the impact of retirement on food expenditure and food quantities purchased, using detailed home-scan panel data on food purchases and household characteristics in France. We identify a causal relationship by exploiting the French legal minimum age for retirement as an exogenous shock to retirement behavior. Upon retirement, households significantly decrease their expenditure on food and the amount of food purchased. Households with lower pre-retirement income appear to be more severely affected. Our results indicate that the decrease in food quantities purchased at the aggregate level is driven by a decline in purchases of food from animal origins. A reduced consumption of animal based food products is likely to undermine the diet balance of retirees.
 
+</details>
 
 [Full text available here](https://doi.org/10.1016/j.foodpol.2019.101806){target="_blank"}
 
-<br>
 
 
 
-### Work in progress
-***
-
-#### **Health outcomes of residential agricultural pesticide exposure: Causal modelling from observational data (Project HORAPEST)** 
-with Olivier Allais, Philippe Caillou, Cyriaque Rousselot and Florian Yger
-
-We assess the adverse impact of residential pesticide diffusion on residents living close to agricultural lands, exposed to pesticides via spray drift and volatilisation beyond the treated areas. This population is largely absent in studies to date. We exploit sensitive health data in combination with newly available data on pesticide pollution. For the sake of a clear focus, we will rely on the body of knowledge relating the exposure to some molecules at precise stages of the pregnancy, to the impaired development of specific cognitive and biological systems. Accordingly, the study will focus on the short and medium-term pesticide impact on newborns and children.  We use quasi-experimental methods and new machine learning approaches for causal inference to face the main challenges of non-linearity of the effects, high dimensionality of the potential causes (cocktail effect), data incompleteness, and hidden confounding factors.
-
-<br>
-
-
-
-#### **Air pollution and choice of place of residence (Project ANR BeHealth)** 
-with Olivier Allais and Antoine Nebout
-
-We investigate whether individual preferences such as attitudes towards risk, time and ambiguity are correlated with an individual’s exposure to air pollution through her choice of residence and how this impacts health outcomes. For this, we add a module with questions concerning individual preferences for the new wave of data collection of the French cohort study CONSTANCES. This project is currently at the data collection stage.
-
-<br>
-
-
-#### **The Cost of Long-Term Cumulative Exposure to Air Pollution: Quasi-experimental Evidence from France (Project SCCAIR)** 
-with Emeline Lequy-Flahault, Marion Leroutier, Hélène Ollivier and Aurélien Saussay 
-
-We quantify the long-term societal costs of exposure to ambient air pollution. Leveraging detailed residential histories, we construct novel individual-level measures of cumulative exposure to air pollution in France. We exploit the large-scale shut-down of polluting power plants that took place in the 1980s, following the transition to nuclear energy, as a natural experiment to investigate the consequences of permanent air quality improvements on educational, employment and health outcomes. This project advances the literature by focusing on cumulative rather than short-term exposure, examining a broad set of educational, employment, and health outcomes, and applying quasi-experimental methods to produce plausibly unbiased estimates of air pollution’s societal costs.
-
-
-<br>
-
-
-#### **Climate Change Resilience through Health Systems: The Role of Healthcare Access in Shielding Children from Drought-Related Undernutrition in sub-Saharan Africa (Project CLIMRES-SSA)** 
-with Christoph Strupat, Martin Siegel and Paula von Haaren
-
-This study investigates whether access to healthcare can mitigate the adverse effects of in-utero exposure to climate shocks—specifically droughts and floods—on early childhood nutritional outcomes across 34 sub-Saharan African countries. Using geocoded microdata from the Demographic and Health Surveys (1986–2018), combined with high-resolution environmental and health systems data, we estimate the impact of climate stress during gestation on child stunting, wasting, and underweight. We exploit spatial and temporal variation in climate conditions and healthcare access—measured by travel time to facilities and service quality—to identify causal pathways. Results from interaction models and subgroup analyses offer new insights into the role of health systems as a climate resilience mechanism, particularly for vulnerable populations. This is the first multi-country study in sub-Saharan Africa to jointly analyze climate risk, healthcare access, and child health in a unified empirical framework, directly informing global debates on human development under climate change.
-
-
-<br>
-
-
-#### **The mid-term and long-term economic costs of floods: a study of the Ahr valley (Project SOZIAhr)** 
-with with Hanna Schwank, Svenja Hippel, Jacqueline Lorenzen, Susanne Bell and Kathrin Hörschelmann
-
-This study examines the medium- and long-term socioeconomic impacts of the 2021 flood in the Ahr Valley, with a focus on income and wealth inequalities. Using a difference-in-differences approach, we compare affected and unaffected households before and after the disaster to assess whether the flood exacerbated or reduced existing disparities. We also analyze how individual responses—such as relocation or access to public aid—and sociodemographic factors like age, gender, and education influence recovery trajectories. Beyond economic outcomes, the project investigates how differential exposure and recovery experiences affect attitudes toward climate adaptation and mitigation policies, perceptions of fairness, political trust, and social cohesion. By identifying mechanisms through which disasters shape inequality, the study provides evidence-based recommendations for equitable and effective reconstruction policies, aiming to strengthen regional resilience and inform responses to future extreme weather events.
-
-[Project webpage (in German)](https://www.geographie.uni-bonn.de/de/forschung/arbeitsgruppen/ag-hoerschelmann/forschung/flutkatastrophe-im-ahrtal){target="_blank"}
 
 
 
