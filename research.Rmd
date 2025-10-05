@@ -27,23 +27,6 @@ details[open] > summary.abstract:focus { text-decoration: underline; }
 ### Working papers and work in progress
 ***
 
-#### **The Healthcare Costs of Air Pollution in France** 
-
-<details>
-<summary>Abstract</summary>
-
-I estimate the causal impact of short-term exposure to nitrogen dioxide (NO2), ground-level ozone (O3), and particulate matter (PM) on healthcare costs in France. I construct a large-scale dataset by linking administrative healthcare expenditures for a nationally representative sample with high-resolution air pollution and meteorological data. To address endogeneity concerns related to economic activity, I implement an instrumental variable (IV) strategy that exploits weekly variations in altitude atmospheric conditions including thermal inversions, wind speed, and the height of the planetary boundary layer. My findings reveal that air pollution, even at concentrations below current European air quality standards, imposes annual healthcare costs that exceed earlier estimates by a factor of ten. Heterogeneity analyses show that pollution affects multiple medical specialties, including cardiology, pulmonology, and ophthalmology, while placebo specialties, such as trauma surgery, exhibit no significant effects. Contrary to prior work focusing on children and the elderly, I find that adverse health outcomes extend across all age groups, demonstrating broader population vulnerability. Moreover, marginal effects prove larger at lower pollution levels, implying a concave dose-response function that underscores the potential for substantial cost savings from even modest pollution abatement in relatively clean areas. These results suggest that earlier cost-benefit analyses likely undervalue the societal gains from stricter environmental regulation.
-
-
-</details>
-
-
-[Full text available here](Air_pollution_article.pdf){target="_blank"}&nbsp;&nbsp;&nbsp;&nbsp;  [Podcast (in German)](https://www.podcast.de/episode/624965610/klima-4-die-schmutzkosten){target="_blank"}
-
-
-
-<br>
-
 
 #### **The Cost of Long-Term Cumulative Exposure to Air Pollution: Quasi-experimental Evidence from France (Project SCCAIR)** 
 with Emeline Lequy-Flahault, Marion Leroutier, Hélène Ollivier and Aurélien Saussay 
@@ -121,6 +104,26 @@ We investigate whether individual preferences such as attitudes towards risk, ti
 
 ### Publications
 ***
+
+
+#### **The Healthcare Costs of Air Pollution in France**, *Journal of Environmental Economics and Management* (2025)   
+
+<details>
+<summary>Abstract</summary>
+
+
+This study estimates the short-term healthcare costs of exposure to fine particulate matter (PM\textsubscript{2.5}) in France, where pollution levels are well below current European Union air quality standards. Using administrative data on healthcare expenditure for a representative population sample from 2015 to 2018, combined with high-resolution geospatial data on pollution and meteorological conditions, I implement an instrumental variable strategy that exploits exogenous variation in pollution driven by altitude weather patterns.
+I find that even moderate increases in PM\textsubscript{2.5} significantly raise weekly healthcare costs, with estimated effects two to six times larger than those found in prior studies. Effects are observed across all age groups and in various medical specialties, including cardiology, pulmonology, and neurology. The findings suggest a concave dose-response relationship, with larger marginal effects at lower pollution levels. Aligning pollution concentrations with the WHO’s 2021 guideline could lead to annual savings of \euro{6.44-8.67} billion, which far exceeds estimated abatement costs. These results provide a strong economic justification for more ambitious air quality regulations.
+
+
+</details>
+
+
+[Full text available here](https://doi.org/10.1016/j.jeem.2025.103242){target="_blank"}&nbsp;&nbsp;&nbsp;&nbsp;  [ECONtribute Podcast (in German)](https://www.podcast.de/episode/624965610/klima-4-die-schmutzkosten){target="_blank"}&nbsp;&nbsp;&nbsp;&nbsp;  [University of Bonn Hypothese Podcast (in German)](https://www.uni-bonn.de/de/neues/saubere-luft-ist-schlecht-fuer-die-wirtschaft){target="_blank"}
+
+<br>
+
+
 
 #### **Broken homes and empty pantries: The impact of partnership dissolution on household economic resources**, *International Review of Economics* (2025)  
 
