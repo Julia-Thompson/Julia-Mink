@@ -1,3 +1,9 @@
+---
+title: "Julia Mink | Health and Environmental Economist"
+# or if you insist on the URL in the tab:
+# pagetitle: "https://www.juliamink.eu/"
+---
+
 ##
 
 ## Contact
