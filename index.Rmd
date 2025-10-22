@@ -1,7 +1,7 @@
 ---
-title: "Julia Mink | Health and Environmental Economist"
-# or if you insist on the URL in the tab:
-# pagetitle: "https://www.juliamink.eu/"
+title: ""                 # empty = no big H1 in the body
+pagetitle: "Julia Mink | Health and Environmental Economist"   # what shows in the tab
+output: html_document
 ---
 
 <br>

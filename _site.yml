@@ -3,7 +3,6 @@ name: "Julia Mink"
 output_dir: "."
 
 navbar:
-  title: "Julia Mink | Health and Environmental Economist"
   right:
     - text: "Home"
       href: index.html
@@ -19,6 +18,5 @@ navbar:
 output:
   html_document:
     theme: flatly
-    pagetitle: "https://www.juliamink.eu/"
 
 author: julia
