@@ -4,7 +4,8 @@ pagetitle: "Julia Mink | Health and Environmental Economist"   # what shows in t
 output: html_document
 ---
 
-<br>
+##
+
 
 ## Welcome to my homepage!
 ***

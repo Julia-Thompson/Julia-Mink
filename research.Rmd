@@ -23,18 +23,12 @@ details[open] > summary.abstract:focus { text-decoration: underline; }
 
 ##
 
-# Research
 
-<br>
-
-
-
-
-### Working papers and work in progress
+## Working papers and work in progress
 ***
 
 
-#### **The Cost of Long-Term Cumulative Exposure to Air Pollution: Quasi-experimental Evidence from France (Project SCCAIR)** 
+#### **The Cost of Long-Term Cumulative Exposure to Air Pollution: Quasi-experimental Evidence from France** 
 with Emeline Lequy-Flahault, Marion Leroutier, Hélène Ollivier and Aurélien Saussay 
 
 <details>
@@ -49,7 +43,7 @@ We quantify the long-term societal costs of exposure to ambient air pollution. L
 
 
 
-#### **Health outcomes of residential agricultural pesticide exposure: Causal modelling from observational data (Project HORAPEST)** 
+#### **Health outcomes of residential agricultural pesticide exposure: Causal modelling from observational data** 
 with Olivier Allais, Philippe Caillou, Cyriaque Rousselot and Florian Yger
 
 <details>
@@ -64,7 +58,7 @@ We assess the adverse impact of residential pesticide diffusion on residents liv
 
 
 
-#### **Climate Change Resilience through Health Systems: The Role of Healthcare Access in Shielding Children from Drought-Related Undernutrition in sub-Saharan Africa (Project CLIMRES-SSA)** 
+#### **Climate Change Resilience through Health Systems: The Role of Healthcare Access in Shielding Children from Climate-Driven Undernutrition in sub-Saharan Africa** 
 with Christoph Strupat and Paula von Haaren
 
 <details>
@@ -108,7 +102,7 @@ We investigate whether individual preferences such as attitudes towards risk, ti
 <br>
 
 
-### Publications
+## Publications
 ***
 
 
