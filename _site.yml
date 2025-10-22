@@ -2,7 +2,6 @@ title: "Welcome to Julia Mink's homepage"
 name: "Julia Mink"
 output_dir: "."
 
-
 navbar:
   title: "Julia Mink | Health and Environmental Economist"
   right:
@@ -16,8 +15,10 @@ navbar:
       href: contact.html
     - icon: fab fa-linkedin
       href: https://www.linkedin.com/in/julia-mink/
+
 output:
   html_document:
     theme: flatly
-author: julia
+    pagetitle: "https://www.juliamink.eu/"
 
+author: julia
